@@ -5,10 +5,10 @@ import sys
 sys.path.insert(0, '/home/user/airflow/dags')
 
 # Импорт функций
-from functions/data_loader import load_data
-from functions/data_preprocessing import preprocess_data
-from functions/model_training import train
-from functions/model_evaluation import validate_model
+from functions.data_loader import load_data
+from functions.data_preprocessing import preprocess_data
+from functions.model_training import train
+from functions.model_evaluation import validate_model
 
 data_path = 'functions/data/train.csv'
 
